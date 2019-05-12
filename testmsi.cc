@@ -396,7 +396,7 @@ extern "C" int test_msi()
                 caps_ptr = next;
             }
 
-            // Failed if we fell off the end of a PCI device
+            // Failed if we fell off the end of a virtio device
             if (vendor == 0x1AF4 && device == 0x1050)
                 return 0;
         }
